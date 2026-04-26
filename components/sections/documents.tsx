@@ -59,7 +59,7 @@ const documents: DocumentItem[] = [
     description:
       "A record of daily activities, providing details on meeting discussions and progress tracking.",
     icon: <FileCheck className="text-yellow-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1K4aOnCRpugb0UlQLCpRq0d0deOEOD4LS?usp=sharing",
+    link: "https://drive.google.com/drive/folders/1m1s_RKWXD_49C6hfP4Kyzt08sqmyeYo3",
     color: "from-yellow-500 to-orange-500",
     delay: 3,
   },
