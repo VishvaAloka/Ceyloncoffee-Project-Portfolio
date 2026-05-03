@@ -59,7 +59,7 @@ const documents: DocumentItem[] = [
     description:
       "A record of daily activities, providing details on meeting discussions and progress tracking.",
     icon: <FileCheck className="text-yellow-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1K4aOnCRpugb0UlQLCpRq0d0deOEOD4LS?usp=sharing",
+    link: "https://drive.google.com/drive/folders/1m1s_RKWXD_49C6hfP4Kyzt08sqmyeYo3",
     color: "from-yellow-500 to-orange-500",
     delay: 3,
   },
@@ -68,7 +68,7 @@ const documents: DocumentItem[] = [
     description:
       "Academic writing based on original research, including analysis and interpretation of findings.",
     icon: <Book className="text-green-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/12TV-DJbaCl7cfb8Wn7R1umH30pU5H3LJ?usp=sharing",
+    link: "https://drive.google.com/drive/folders/12eJX9mtBBsZjtnNyc1yXukefT_N9vb40",
     color: "from-green-500 to-emerald-500",
     delay: 4,
   },
@@ -77,7 +77,7 @@ const documents: DocumentItem[] = [
     description:
       "A comprehensive document showcasing research findings, methodology, and expertise, contributing to academic insights.",
     icon: <GraduationCap className="text-purple-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1Uqj0tE9ej7Z2tA3k7MbkeFsOJ_bfUt1B?usp=sharing",
+    link: "https://drive.google.com/drive/folders/10HNwPGCAJ0ZLWMc4phkfo2V2KT2K-Vbp",
     color: "from-purple-500 to-violet-500",
     delay: 5,
   },
