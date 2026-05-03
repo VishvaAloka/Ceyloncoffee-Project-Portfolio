@@ -32,7 +32,7 @@ const documents: DocumentItem[] = [
     description:
       "A formal, typically short document that describes the project in its entirety – including objectives and how it will be carried out.",
     icon: <FileText className="text-blue-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1vM0gznTIdxMZh1AEEqNMdpf3agRaFARl",
+    link: "https://drive.google.com/drive/folders/1vM0gznTIdxMZh1AEEqNMdpf3agRaFARl?usp=sharing",
     color: "from-blue-500 to-cyan-500",
     delay: 0,
   },
@@ -41,7 +41,7 @@ const documents: DocumentItem[] = [
     description:
       "A core document that helps focus on the substance of the proposed plan, using an easy-to-follow project proposal outline.",
     icon: <FilePlus className="text-orange-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1VBpPgZJ6g0gHqrFvE6EhcRrjqRalOI6I",
+    link: "https://drive.google.com/drive/folders/1VBpPgZJ6g0gHqrFvE6EhcRrjqRalOI6I?usp=sharing",
     color: "from-orange-500 to-amber-500",
     delay: 1,
   },
@@ -50,7 +50,7 @@ const documents: DocumentItem[] = [
     description:
       "A list of tasks to be completed, providing details on meeting discussions and progress tracking.",
     icon: <FileCheck className="text-pink-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1w3gve9gSp8lNGXVnQBvMR8NyTqu6KiRE",
+    link: "https://drive.google.com/drive/folders/1w3gve9gSp8lNGXVnQBvMR8NyTqu6KiRE?usp=sharing",
     color: "from-pink-500 to-rose-500",
     delay: 2,
   },

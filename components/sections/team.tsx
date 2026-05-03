@@ -1,5 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Coffee, Star, Users, Sparkles, Zap, Heart, Award, Flame, Crown, Shield } from "lucide-react";
+import { Coffee, Star, Users, Sparkles, Zap, Heart, Award, Flame, Crown, Shield, Linkedin } from "lucide-react";
 
 const guiders = [
   {
@@ -11,6 +11,7 @@ const guiders = [
     color: "from-violet-500 via-purple-500 to-pink-600",
     glowColor: "rgba(168, 85, 247, 0.4)",
     accentColor: "#a855f7",
+    linkedin: "https://www.linkedin.com/in/jenny-krishara-1a09a0111/",
   },
   {
     id: "person-2",
@@ -21,6 +22,7 @@ const guiders = [
     color: "from-sky-500 via-blue-500 to-cyan-600",
     glowColor: "rgba(14, 165, 233, 0.4)",
     accentColor: "#0ea5e9",
+    linkedin: "https://www.linkedin.com/in/osuri-dunuwila-877843107/",
   },
 ];
 
@@ -35,10 +37,11 @@ const members = [
     glowColor: "rgba(245, 158, 11, 0.45)",
     accentColor: "#f59e0b",
     icon: Crown,
+    linkedin: "https://www.linkedin.com/in/rajeev-aloka/",
   },
   {
     id: "person-6",
-    name: "Diwan Sachidu",
+    name: "Thiwanka Jayalath",
     role: "Member",
     avatar: "/images/members/Thiwanka-Jayalath.jpg",
     badge: "Team Member",
@@ -46,6 +49,7 @@ const members = [
     glowColor: "rgba(16, 185, 129, 0.4)",
     accentColor: "#10b981",
     icon: Zap,
+    linkedin: "https://www.linkedin.com/in/thiwanka-jayalath-3b3937370/",
   },
   {
     id: "person-7",
@@ -57,6 +61,7 @@ const members = [
     glowColor: "rgba(244, 63, 94, 0.4)",
     accentColor: "#f43f5e",
     icon: Flame,
+    linkedin: "https://www.linkedin.com/in/sahan-liyanage-46a804217/",
   },
   {
     id: "person-8",
@@ -68,6 +73,7 @@ const members = [
     glowColor: "rgba(99, 102, 241, 0.4)",
     accentColor: "#6366f1",
     icon: Shield,
+    linkedin: "https://www.linkedin.com/in/rumalya-mahadurage-6508a42b2/",
   },
 ];
 
@@ -452,6 +458,18 @@ const Team = () => {
                   />
                 ))}
 
+                {/* LinkedIn icon */}
+                <a
+                  href={person.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute top-4 right-4 opacity-60 hover:opacity-100 transition-opacity duration-300"
+                  style={{ color: person.accentColor }}
+                  title={`Visit ${person.name}'s LinkedIn`}
+                >
+                  <Linkedin className="w-5 h-5" />
+                </a>
+
                 {/* Avatar */}
                 <div className="relative mb-6">
                   {/* Rotating conic border on hover */}
@@ -530,9 +548,21 @@ const Team = () => {
                     />
                   ))}
 
+                  {/* LinkedIn icon */}
+                  <a
+                    href={person.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute top-3 right-3 opacity-60 hover:opacity-100 transition-opacity duration-300"
+                    style={{ color: person.accentColor }}
+                    title={`Visit ${person.name}'s LinkedIn`}
+                  >
+                    <Linkedin className="w-4 h-4" />
+                  </a>
+
                   {/* Floating role icon */}
                   <div
-                    className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    className="absolute top-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                     style={{ color: person.accentColor }}
                   >
                     <Icon className="w-5 h-5" />
