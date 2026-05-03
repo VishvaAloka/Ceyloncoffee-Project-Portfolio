@@ -136,7 +136,7 @@ const Header = () => {
                         </div>
                         <div className="flex items-center gap-2">
                           <Link
-                            href="https://github.com/your-coffee-research-repo"
+                            href="https://github.com/VishvaAloka/Ceyloncoffee-Project-Portfolio"
                             target="_blank"
                           >
                             <Github
