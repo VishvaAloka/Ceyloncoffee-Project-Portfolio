@@ -103,7 +103,7 @@ const Header = () => {
           </div>
           <div className="flex gap-2 items-center">
             <Link
-              href="https://github.com/your-coffee-research-repo"
+              href="https://github.com/VishvaAloka/Ceyloncoffee-Project-Portfolio"
               target="_blank"
             >
               <Github size={15} className="text-amber-800 dark:text-amber-400 hover:text-amber-600 dark:hover:text-amber-300 transition-colors" />
