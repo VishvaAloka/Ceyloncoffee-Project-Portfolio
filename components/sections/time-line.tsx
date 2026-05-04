@@ -71,7 +71,7 @@ const milestones = [
     icon: BookOpen,
   },
   {
-    date: "April 26, 2026",
+    date: "May 4, 2026",
     title: "Final Presentation and viva",
     description: "Finalized and Demonstrated 100% progress.",
     color: "from-purple-700 to-pink-700",
