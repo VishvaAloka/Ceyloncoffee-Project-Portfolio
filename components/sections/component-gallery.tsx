@@ -27,7 +27,7 @@ const images: ImageType[] = [
     alt: "Resource Allocation Optimization",
   },
   {
-    src: "/images/diagrams/Sahan-diagram.jpg",
+    src: "/images/diagrams/Sahan-diagram.png",
     alt: "Bean Type & Grade Identification",
   },
 ];
