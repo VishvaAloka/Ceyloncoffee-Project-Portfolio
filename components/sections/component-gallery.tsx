@@ -19,7 +19,7 @@ const images: ImageType[] = [
     alt: "Disease Detection & Yield Prediction",
   },
   {
-    src: "/images/diagrams/Thiwanka-diagram.jpg",
+    src: "/images/diagrams/Thiwanka-diagram.png",
     alt: "Price & Demand Prediction",
   },
   {
